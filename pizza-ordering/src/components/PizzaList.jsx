@@ -1,16 +1,23 @@
 import styles from "../styles/PizzaList.module.css";
-import PizzaCard from "../components/PizzaCard.jsx";
+import PizzaCard from "./PizzaCard";
 
 const PizzaList = () => {
   return (
     <div className={styles.container}>
-      <div className={styles.title}>The Best Pizza in PizzaTown</div>
+      <h1 className={styles.title}>THE BEST PIZZA IN TOWN</h1>
       <p className={styles.desc}>
-        Lorem ipsum is so ubiquitous because it is so versatile. Select how many
-        paragraphs you want, copy, paste, and break the lines wherever it is
-        convenient
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut blandit arcu
+        in pretium molestie. Interdum et malesuada fames acme. Lorem ipsum dolor
+        sit amet, consectetur adipiscing elit.
       </p>
       <div className={styles.wrapper}>
+        <PizzaCard />
+        <PizzaCard />
+        <PizzaCard />
+        <PizzaCard />
+        <PizzaCard />
+        <PizzaCard />
+        <PizzaCard />
         <PizzaCard />
       </div>
     </div>

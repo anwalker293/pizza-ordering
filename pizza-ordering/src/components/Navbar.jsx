@@ -14,7 +14,7 @@ const Navbar = () => {
             height="32"
           />
         </div>
-        <div className={styles.text}>
+        <div className={styles.texts}>
           <div className={styles.text}>Order Now!</div>
           <div className={styles.text}>503 123 4567</div>
         </div>

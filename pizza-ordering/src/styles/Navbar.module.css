@@ -10,9 +10,6 @@
   z-index: 999;
 }
 
-.telephone {
-}
-
 .item {
   flex: 1;
   display: flex;
@@ -31,11 +28,8 @@
   background-color: white;
   border-radius: 50%;
   padding: 10px;
-}
-
-.telephone {
-  width: 95%;
-  height: 95%;
+  width: 50px;
+  height: 50px;
 }
 
 .texts {
@@ -54,17 +48,16 @@
 }
 
 .list {
+  padding: 0;
   display: flex;
   align-items: center;
   list-style: none;
   color: white;
-  justify-content: center;
 }
 
 .listItem {
-  margin: 16px;
+  margin: 20px;
   font-weight: 500;
-  justify-content: center;
 }
 
 .cart {
